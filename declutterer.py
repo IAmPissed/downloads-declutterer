@@ -25,7 +25,7 @@ def move_files():
             elif extention == '.pptx':
                 dst_path = f'{downloads}\\Documents\\PowerPoint\\{item}'
             elif extention == '.mkv' or extention == '.mp4':
-                dst_path = f'{downloads}\\Video\\{item}'
+                dst_path = f'{downloads}\\Videos\\{item}'
             elif extention == '.zip':
                 dst_path = f'{downloads}\\Compressed\\{item}'
             elif extention == '.xlsx':
